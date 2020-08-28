@@ -29,10 +29,6 @@ args = parser.parse_args()
 
 url = 'https://api.securitytrails.com/v1/domain/' + args.domain + '/subdomains'
 
-try:
-    domain = sys.argv[1]
-except NameError:
-    print("please provide a domian name: " + sys.argv[0] + ' domain.com')
 apiKey = {'apikey': api_key}
 x = requests.get(url, headers=apiKey)
 jsonResp = x.json()
