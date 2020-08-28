@@ -1,6 +1,6 @@
 # subtrail
 ## Description
-This script is designed to pull down all subdomains for a given domain
+This script is designed to pull down all subdomains from Security Trails for a given domain
 
 You must specify your api key from: https://securitytrails.com/
 
