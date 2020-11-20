@@ -3,7 +3,7 @@ import requests
 import argparse
 import socket 
 
-api_key = "P1ilAI2OzEPmfgZG5uY8DZmOFNYeWQ0C"
+api_key = ""
 
 if api_key == '':
     sys.exit('\nPlease edit the script to include an API KEY\n')
